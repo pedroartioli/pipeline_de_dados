@@ -1,4 +1,4 @@
-# pepiline_aws
+# pipeline_aws
 🚀 End-to-End Data Engineering Pipeline: From Ingestion to Data Lakehouse
 This project consists of a complete Data Engineering pipeline developed in Python to automate public data extraction, transform formats for storage optimization (Parquet), and catalogue the data using AWS Glue.
 
@@ -7,10 +7,9 @@ The goal is to build a scalable Data Lake architecture on AWS, moving data from 
 🛠️ Architecture & Workflow
 The data flow follows these steps:
 
-Extraction (ELT): Automated collection of raw CSV files (Boston 311 Service Requests) directly from the open data portal.
+**Extraction (ELT):** Automated collection of raw CSV files (Boston 311 Service Requests) directly from the open data portal.
 
-Transformation:
-
+**Transformation:**
 Consolidation of data using Pandas.
 
 Conversion from CSV to Parquet (columnar format) for storage efficiency and query performance.
