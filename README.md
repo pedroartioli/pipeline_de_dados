@@ -1,4 +1,4 @@
-# ppepiline_aws
+# pepiline_aws
 🚀 End-to-End Data Engineering Pipeline: From Ingestion to Data Lakehouse
 This project consists of a complete Data Engineering pipeline developed in Python to automate public data extraction, transform formats for storage optimization (Parquet), and catalogue the data using AWS Glue.
 
